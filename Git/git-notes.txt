@@ -1,0 +1,1 @@
+git config --global --edit : create(if not exist) and edit the .gitconfig file
