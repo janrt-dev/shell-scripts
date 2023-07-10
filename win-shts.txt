@@ -1,0 +1,8 @@
+Notation:
+--------
+C: Ctrl
+M: Alt
+
+
+C-M-Up/Down/Right/Left Arrow: Rotate your screen 90 degree with all direction.
+
