@@ -1,16 +1,16 @@
 # Vim navig cmds
 
-j,k: moving up and down line.
-g, G, 8gg : firt line, last line, like number 
-H: top of the screen
-M: middle of the screen.
-L: bottom of the xcreen.
+* j,k: moving up and down line.
+* g, G, 8gg : firt line, last line, like number 
+* H: top of the screen
+* M: middle of the screen.
+* L: bottom of the xcreen.
 
-## Shifting Screen \
-zz vs zt vs zb : curent line to top, middle, bottom
-C+y and C+e : scroll one line 
-scroll half-page: C+u and C+d
-scroll full-page: C+b and C+f. 
+## Shifting Screen 
+* zz vs zt vs zb : curent line to top, middle, bottom
+* C+y and C+e : scroll one line 
+* C+u and C+d : scroll half-page
+* C+b and C+f :  scroll full-page
 
 
 Within a Line:
