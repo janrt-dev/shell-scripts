@@ -1,8 +1,0 @@
-git config --global --edit : create(if not exist) and edit the .gitconfig file
-
-
--------
-git fetch : update your local repo with the lastest changes made in remote repo.
-git log : display all the commit history and see the details of the change made in the remote repo.
-git pull : fetch and apply the latest changes from the romte repo.
-:

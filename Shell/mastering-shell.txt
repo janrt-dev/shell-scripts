@@ -1,0 +1,8 @@
+cat path/filename.txt : print out all the contents of the file.
+head path/file.ext : print the first 10 lines of the file.
+tail path/file.ext : print the last 10 lines of the file.
+head/tail -n [number] path/file.ext : print the number of lines from the beginning/end of the file. 
+grep string path/filename.ext : find all the string occurences within the file. 
+
+sed 's/Hello/Goodbye/' shell-basics/welcoming.txt : change the string 'Hello' to 'Goodbye' in the welcoming file without changing the original file. 
+sed  -i '' 's/Hello/GoodBye' shell-basics/welcoming.txt: change the string with changing the original file.
