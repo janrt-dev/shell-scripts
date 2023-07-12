@@ -1,4 +1,4 @@
-.## Vim navigation
+## Vim navigation
 
 * j,k: moving up and down line.
 * g, G, 8gg : firt line, last line, like number 
@@ -18,7 +18,7 @@
 * $ : end of line.
 * g_ : last char of the string.
   
-Extra Fun:
+## Extra Fun:
 
 10%, 40% : move to a line by percent of file.
 
@@ -36,7 +36,7 @@ ff: go to next word starting with f.
 
 .: move backward.
 
-Jumpinng within a line.
+## Jumpinng within a line.
 
 f<char> : find a character forward in a a line and move to to it.
 
@@ -52,7 +52,7 @@ T<char>: move tthe cursor backward until the char.
 
 
 
-Deleting Commands
+## Deleting Commands
 
 das: delete the whole sentence.
 
@@ -72,7 +72,7 @@ cs<char><newchar>	Replace surrounding <character> with <new character>
 
 ys<txt-obj><char>	Surround text-object with <character>
 
-Indentation:
+## Indentation:
 
 \>> : indent the line to the right
 
@@ -88,12 +88,12 @@ Indentation:
 
 ==: reformat the whole line.
 
-Replacing
+## Replacing
 
 r<char> replace the character under the cursor. 
 
 
-**Windows & Tabs**
+## **Windows & Tabs**
 
 Opening Windows
 
@@ -105,7 +105,7 @@ Opening Windows
 
 :vsplit <filename>	Edit the specified file in new window beside the current window
 
-Moving Between Windows
+## Moving Between Windows
 
 <C-w>h,j,k,l	Navigate to the window in the given direction (<C-w>j navigates down)
 
@@ -121,7 +121,7 @@ Moving Between Windows
 
 <C-w>=   	Equalize the width and height of all windows
 
-Positioning the Buffer in the Window
+## Positioning the Buffer in the Window
 
 zz	Center the current line within the window
 
@@ -129,7 +129,7 @@ zt	Bring the current line to the top of the window
 
 zb	Bring the current line to the bottom of the window
 
-Tabs: tabs or tabpages are a colleciton of windows in Vim. 
+## Tabs: tabs or tabpages are a colleciton of windows in Vim. 
 
 :tabnew	                Open a new tab
 
@@ -146,7 +146,7 @@ gT                Go to previous tab (wraps around to end)
 % match the occurrence of the following (),{},[].
 <C-I>, <C-O>:  
 
-VIM Modes
+## VIM Modes
 normal mode: <ESC> 
 visual mode v
 >> visual line mode  V
@@ -161,22 +161,34 @@ vimrc = vim run commands.
 :e . : Show the files and sud-directories of the currnet directory.
 
 
-help commands
+## help commands
 :h open help
+
 C-] follow links
+
 C-o jump back
+
 :helpgrep search your documentation
+
 :cn / :cp next and previous results
+
 :cwindow display all results in handy window
 
-Windows Shortcuts.
+## Windows Shortcuts.
 :h windows hhet general help on windows
+
 p:h CTRL-w list all window-related commands
+
 :sp split horizontally
+
 :vsp split vertically
+
 C-w cycle through windows
+
 C-w h/j/k/l move into window in given direction
+
 C-w H/J/K/L move window in given direction
+
 C-w o focus a single window (close others)
 
 
