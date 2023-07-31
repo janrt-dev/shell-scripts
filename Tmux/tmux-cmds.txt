@@ -1,0 +1,36 @@
+tmux stands for terminal multiplexers that allow you to combine togather multiple virtual sessions.
+
+
+General terminologies:
+---------------------
+There are three main concepts in tmux as follows:
+ Session is a colleciton of windows.
+ Windows can split  into  panes.
+ Panes we can run any processes that we want.
+ 
+
+
+General cmds:
+------------
+tmux : create the first session.
+tmux new-session -s session_name : create a new session called session_name.
+
+Session cmds:
+-----------
+tmux list-seesions: list all the existed windows. 
+tmux switch-client -t session_name : switch to the target session specified by session_name. 
+prefix L: Jump back and forth between the last session.
+prefix D : detach from the session.
+
+default prefix key : C-b
+new prefix key : C-Space
+
+Spliting cmds:
+-------------
+prefix + % :  split the screen vertically.
+prefix + " : split the screen horizontally.
+prefix + o : navigate through the splited screens. 
+
+
+
+ 
