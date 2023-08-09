@@ -6,3 +6,8 @@ grep string path/filename.ext : find all the string occurences within the file.
 
 sed 's/Hello/Goodbye/' shell-basics/welcoming.txt : change the string 'Hello' to 'Goodbye' in the welcoming file without changing the original file. 
 sed  -i '' 's/Hello/GoodBye' shell-basics/welcoming.txt: change the string with changing the original file.
+
+A shell cmd usually have the following format:
+     cmd opts pars
+opts or options inside curly brackets are optional.
+the string without [] are mandatory.

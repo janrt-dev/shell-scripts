@@ -1,0 +1,23 @@
+Emacs is not merely a text editor but almost a complete operating system. 
+
+Emacs helps you be productive by providing an integrated environment for many
+different kinds of tasks:
+
+ >> All of the basic editing commands (and there are lots of them) are available no
+matter what you're trying to do: write code, read a manual, use a shell, or
+compose an email.
+ >> All the tools Emacs provides for opening, saving, searching, and processing text
+(and more) are available to you no matter what you're doing.j
+
+general keys:
+
+C- : means use the CTRL key.
+M- : means use the Meta(Alt) Key.
+
+a buffer in Emacs is a workspace where you can edit and manipulate text or data,
+whether it's associated with a file on disk or used for temporary work.
+Emacs is designed to handle a large number of buffers
+
+C-x C-f : open a file from within Emacs.
+C-x C-s : save a file. 
+
