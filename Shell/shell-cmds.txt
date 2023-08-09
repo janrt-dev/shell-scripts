@@ -24,7 +24,6 @@ drwxr-xr-x   6 me       me           1024 Oct  9  2019 web_page
 -rw-------   1 me       me           5743 Dec 16  2018 xmas_file.txt
 
 ----------     -------  -------  -------- ------------ -------------
-<<<<<<< HEAD
     |             |        |         |         |             |
     |             |        |         |         |         File Name
     |             |        |         |         |
@@ -37,8 +36,6 @@ drwxr-xr-x   6 me       me           1024 Oct  9  2019 web_page
     |             +--------------------------------        Owner
     |
     +----------------------------------------------   File Permissions
->>>>>>> 48761ea (adding some shell navig cmds)
-=======
 |             |        |         |         |             |
 |             |        |         |         |         File Name
 |             |        |         |         |
