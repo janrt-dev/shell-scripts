@@ -7,12 +7,6 @@ grep string path/filename.ext : find all the string occurences within the file.
 sed 's/Hello/Goodbye/' shell-basics/welcoming.txt : change the string 'Hello' to 'Goodbye' in the welcoming file without changing the original file. 
 sed  -i '' 's/Hello/GoodBye' shell-basics/welcoming.txt: change the string with changing the original file.
 
-<<<<<<< HEAD
-A shell cmd usually have the following format:
-     cmd opts pars
-opts or options inside curly brackets are optional.
-the string without [] are mandatory.
-=======
 Shell Navigation:
 ----------------
 Most commands ooperate like this: cmd -opts args
@@ -91,4 +85,3 @@ drwxr-xr-x   6 me       me           1024 Oct  9  2019 web_page
   |                  | ---------- POSIX Character Classes ---------------                                                     |
   |  [!characters]   | Matches any character that is not a member of the set character                                        |
   +------------------+--------------------------------------------------------------------------------------------------------+
->>>>>>> 03fcabd (some changes)
