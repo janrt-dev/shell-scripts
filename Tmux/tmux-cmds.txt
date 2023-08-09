@@ -1,12 +1,12 @@
 tmux stands for terminal multiplexers that allow you to combine togather multiple virtual sessions.
 
 
-General terminologies:
----------------------
-There are three main concepts in tmux as follows:
+Tmux Objects:
+------------
+There are three main objects in tmux as follows:
  Session is a colleciton of windows.
- Windows can split  into  panes.
- Panes we can run any processes that we want.
+ Windows a single screen with tmux that can split  into  panes.
+ Panes a portion of a window that  can run a single  process.
  
 
 
@@ -27,9 +27,11 @@ new prefix key : C-Space
 
 Spliting cmds:
 -------------
-prefix + % :  split the screen vertically.
-prefix + " : split the screen horizontally.
-prefix + o : navigate through the splited screens. 
+prefix + % :  split the window horizontally.
+prefix + " : split the window vertically.
+prefix + o : navigate through the panes. 
+
+
 
 
 
