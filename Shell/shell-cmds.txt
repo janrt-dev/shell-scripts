@@ -36,18 +36,6 @@ drwxr-xr-x   6 me       me           1024 Oct  9  2019 web_page
     |             +--------------------------------        Owner
     |
     +----------------------------------------------   File Permissions
-|             |        |         |         |             |
-|             |        |         |         |         File Name
-|             |        |         |         |
-|             |        |         |         +---  Modification Time
-  |             |        |         |
-|             |        |         +-------------   Size (in bytes)
-  |             |        |
-  |             |        +-----------------------        Group
-  |             |
-  |             +--------------------------------        Owner
-  |
-  +----------------------------------------------   File Permissions
 
   less text_file : enable us to view text file in this example we see the contents of text_file.
   some comds associated with less cmds:
