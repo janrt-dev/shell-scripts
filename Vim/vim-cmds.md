@@ -193,3 +193,7 @@ C-w o focus a single window (close others)
 
 
 
+vim -r filename: recover filename that was being edited when system crashed. 
+
+C-l : redraws the screen.
+C-r : redraws the screen, removing deleted lines.
