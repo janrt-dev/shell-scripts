@@ -1,4 +1,4 @@
-ight-engineering, right-documenting
+Right-engineering, right-documenting
 You will often be told that software engineers have a tendency to
 under-document, and to over-engineer; but truth be told, you also find cases
 where engineers have over-documented, or under-engineered, and it’s equally
