@@ -36,13 +36,9 @@ Manually install the Key
   * start the firewall: ```sudo systemctl enable firwalld```
  
  5. Disable login by Password. secure your server from brute-force with disabling login by password as follow:
-  1. open ssh config file : ```vim /etc/ssh/sshd\_config```, then change the following variables to corresponding values.
-
-  2. ```challengResponseAuthenticate no```
-
-  3. ```PasswordAutho no```
-
-  4. ```UsePAM no ```
-
-  5. ```PermitRootLogin no ```
-  6. restart ```ssh system reload sshd ```.
+    1. open ssh config file : ```vim /etc/ssh/sshd\_config```, then change the following variables to corresponding values.
+    2. ```challengResponseAuthenticate no```
+    3. ```PasswordAutho no```
+    4. ```UsePAM no ```
+    5. ```PermitRootLogin no ```
+    6. restart ```ssh system reload sshd ```.
