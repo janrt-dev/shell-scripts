@@ -27,6 +27,7 @@ Session cmds
 * prefix D : detach from the session.
 
 > default prefix key : C-b
+
 > new prefix key : C-Space
 
 Spliting cmds
