@@ -11,10 +11,10 @@
     * Generate a Key Pair => ssh-keygen 
     * Copy the Public Key
 
-  1. Automatic Install.
+  * Automatic Install.
     * Use ssh-copy-id :``` sshcopy-id userName@server\_ip\_add ```.
 
-  2. Manually install the Key
+  * Manually install the Key
     * ```cat ~/.ssh/id\_rsa.pub``` then add it to new remote user 
     * switch to the new user:``` su - newUser```
     * then create a .ssh folder: ```mkdir .ssh```
