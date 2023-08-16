@@ -25,13 +25,13 @@ Manually install the Key
 
 4. Configure a basic firewall:
 > CentOs ships with a basic firwarll-cmd enables us to config the firewall policies as follows:
- 4.1. start the firewall : systemctl start firewalld.
- 4.2. To enable ssh daemon: sudo firewalld-cmd -permanent -add -service=ssh
- 4.3 enable https/http service: firewall-cmd --permanent --add -service=htpps/http
- 4.3 See additional seervices thay you can enable: firewall-cmd -get-services
- 4.4. list all the exceptions implemented: firewall-cmd -permanent -list\_all
- 4.5. implement all the changes made: firewall-cmd reload
- 4.6. start the firewall: sudo systemctl enable firwalld.
+  * start the firewall : systemctl start firewalld.
+  * To enable ssh daemon: sudo firewalld-cmd -permanent -add -service=ssh
+  * enable https/http service: firewall-cmd --permanent --add -service=htpps/http
+  *  See additional seervices thay you can enable: firewall-cmd -get-services
+  * list all the exceptions implemented: firewall-cmd -permanent -list\_all
+  * implement all the changes made: firewall-cmd reload
+  * start the firewall: sudo systemctl enable firwalld.
  
  5. Disable login by Password. secure your server from brute-force with disabling login by password as follow:
  > open ssh config file : vim /etc/ssh/sshd\_config
