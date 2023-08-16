@@ -25,23 +25,24 @@ Manually install the Key
 
 4. Configure a basic firewall:
  CentOs ships with a basic firwarll-cmd enables us to config the firewall policies as follows:
-  * start the firewall : ```shell
+  * start the firewall : ```
                            systemctl start firewalld
                          ``` .
-  * To enable ssh daemon: sudo firewalld-cmd -permanent -add -service=ssh
-  * enable https/http service: firewall-cmd --permanent --add -service=htpps/http
-  *  See additional seervices thay you can enable: firewall-cmd -get-services
-  * list all the exceptions implemented: firewall-cmd -permanent -list\_all
-  * implement all the changes made: firewall-cmd reload
-  * start the firewall: sudo systemctl enable firwalld.
+  * To enable ssh daemon: ```sudo firewalld-cmd -permanent -add -service=ssh```
+  * enable https/http service: ```firewall-cmd --permanent --add -service=htpps/http```
+  *  See additional seervices thay you can enable: ```firewall-cmd -get-services```
+  * list all the exceptions implemented: ```firewall-cmd -permanent -list\_all```
+  * implement all the changes made: ```firewall-cmd reload```
+  * start the firewall: ```sudo systemctl enable firwalld```
  
  5. Disable login by Password. secure your server from brute-force with disabling login by password as follow:
- > open ssh config file : vim /etc/ssh/sshd\_config
+  1. open ssh config file : ```vim /etc/ssh/sshd\_config```, then change the following variables to corresponding values.
 
- > challengResponseAuthenticate no
+  2. ```challengResponseAuthenticate no```
 
- > PasswordAutho no
+  3. ```PasswordAutho no```
 
- > UsePAM no 
+  4. ```UsePAM no ```
 
- > PermitRootLogin no then restart ssh system reload sshd.
+  5. ```PermitRootLogin no ```
+  6. restart ```ssh system reload sshd ```.
