@@ -193,3 +193,24 @@ C-w o focus a single window (close others)
 
 
 
+vim -r filename: recover filename that was being edited when system crashed. 
+
+C-l : redraws the screen.
+C-r : redraws the screen, removing deleted lines.
+
+R: replace characters, starting with current cursor postion, unit \<esc\> hit
+
+:= : return the total number of lines at bottom of screen.
+
+:.= : indicates the line number of the current line.
+
+C-g : provide the current line number. 
+
+:12,35w smallfile<Return> :  write the contents of the lines numbered 12 through
+35 to a new file named smallfile
+
+:r filename<Return> : read file named filename and insert after current line
+(the line with cursor)
+
+:w! prevfile<Return> :   write current contents over a pre-existing file named
+prevfile

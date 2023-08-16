@@ -5,4 +5,13 @@ git config --global --edit : create(if not exist) and edit the .gitconfig file
 git fetch : update your local repo with the lastest changes made in remote repo.
 git log : display all the commit history and see the details of the change made in the remote repo.
 git pull : fetch and apply the latest changes from the romte repo.
-:
+
+git log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s
+%Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative : => display the
+history of your project in visually ways.
+
+git status : indicates which files are modified. 
+
+$ git init   # You're done!  initiate a git repo in non-git repo
+$ git remote add origin url_of_your_git_server   # So that you can push your
+code somewhere.  
