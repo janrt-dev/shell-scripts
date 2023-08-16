@@ -25,7 +25,7 @@ Manually install the Key
 
 4. Configure a basic firewall:
  CentOs ships with a basic firwarll-cmd enables us to config the firewall policies as follows:
-  * start the firewall :```sh  systemctl start firewalld``` .
+  * start the firewall :```shell  systemctl start firewalld``` .
   * To enable ssh daemon: sudo firewalld-cmd -permanent -add -service=ssh
   * enable https/http service: firewall-cmd --permanent --add -service=htpps/http
   *  See additional seervices thay you can enable: firewall-cmd -get-services
