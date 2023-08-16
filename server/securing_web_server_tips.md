@@ -2,7 +2,7 @@
     * ``` adduser newUserName      ```
     * ``` passwd passwordNewUseName```
 
-2. Disable root remote login: prevent anyone from logingas root user.
+2. Disable root remote login: prevent anyone from loging as root user.
     * ```vim /etc/ssh/config``` then update
     * ```PermitRootlogin``` to no then reload ssh
     * ```systemctl reload sshd```..
