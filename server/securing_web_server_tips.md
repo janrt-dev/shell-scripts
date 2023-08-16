@@ -1,26 +1,26 @@
 1. Create a new user as follows:
-  * ``` adduser newUserName      ```
-  * ``` passwd passwordNewUseName```
+    * ``` adduser newUserName      ```
+    * ``` passwd passwordNewUseName```
 
 2. Disable root remote login: prevent anyone from logingas root user.
-  * ```vim /etc/ssh/config``` then update
-  * ```PermitRootlogin``` to no then reload ssh
-  * ```systemctl reload sshd```..
+    * ```vim /etc/ssh/config``` then update
+    * ```PermitRootlogin``` to no then reload ssh
+    * ```systemctl reload sshd```..
 
 3. Add a public-key Auth:
-  * Generate a Key Pair => ssh-keygen 
-  * Copy the Public Key
+    * Generate a Key Pair => ssh-keygen 
+    * Copy the Public Key
 
-Automatic Install.
-  * Use ssh-copy-id :``` sshcopy-id userName@server\_ip\_add ```.
+  Automatic Install.
+    * Use ssh-copy-id :``` sshcopy-id userName@server\_ip\_add ```.
 
-Manually install the Key
-  * ```cat ~/.ssh/id\_rsa.pub``` then add it to new remote user 
-  * switch to the new user:``` su - newUser```
-  * then create a .ssh folder: ```mkdir .ssh```
-  * restritct its permissions: ```chmod 700 .ssh```
-  * then paste public key: ```vim .ssh/authorized\_keys```
-  * last not least, restrict the persmission of the authorized\_keys file: ```chmod 600 .ssh/authorized\_keys```
+  Manually install the Key
+    * ```cat ~/.ssh/id\_rsa.pub``` then add it to new remote user 
+    * switch to the new user:``` su - newUser```
+    * then create a .ssh folder: ```mkdir .ssh```
+    * restritct its permissions: ```chmod 700 .ssh```
+    * then paste public key: ```vim .ssh/authorized\_keys```
+    * last not least, restrict the persmission of the authorized\_keys file: ```chmod 600 .ssh/authorized\_keys```
 
 
 4. Configure a basic firewall:
