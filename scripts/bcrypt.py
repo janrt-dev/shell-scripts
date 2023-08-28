@@ -12,7 +12,7 @@ def hash_password(plain_text_password):
     return hashed_password.decode('utf-8')  # Convert bytes to string
 
 def main():
-    input_csv_filename = "/path/to/csv_filecsv.csv"
+    input_csv_filename = "/path/to/csv_file_in.csv"
     output_csv_filename = "path/to/csv_file_out.csv"
     with open(input_csv_filename, 'r', newline='', encoding='latin-1') as infile:
         reader = csv.DictReader(infile)
