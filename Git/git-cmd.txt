@@ -15,3 +15,14 @@ git status : indicates which files are modified.
 $ git init   # You're done!  initiate a git repo in non-git repo
 $ git remote add origin url_of_your_git_server   # So that you can push your
 code somewhere.  
+
+Why I wanna learn Git.
+1. Undoing coding mistakes.
+2. Tracking my projects over time.
+3. prevent mcuch backups if you have many hundreds of copies of backups you will be hard to keep track of all of them.
+4. sending  copies back and forth doesn't seem ideal esp when working with other people.
+
+Learn Git .
+
+git init. => enter the time machine and inialize it (Git is the time machine).
+git add . => add changes to stagging area.
