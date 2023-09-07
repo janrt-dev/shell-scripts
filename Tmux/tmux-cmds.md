@@ -18,6 +18,7 @@ General cmds
 ------------
 * tmux : create the first session.
 * tmux new-session -s sessionname : create a new session called sessionname.
+* tmux kill-server : reset the tmux configuration settings.
 
 Session cmds
 -----------
