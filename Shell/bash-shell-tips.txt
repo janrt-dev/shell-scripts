@@ -1,0 +1,4 @@
+To enable vim editing in Bash Shell: 
+1. open the .bashrc file in vim editor.
+2. add the following cmd to the bashrc file: set -o vi.
+3. save and quit the file then run the following  to reload the bashrc updates: source /path/to/.bashrc(e.g. ~/.bashrc)
