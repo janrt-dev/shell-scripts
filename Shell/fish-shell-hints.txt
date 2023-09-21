@@ -1,0 +1,5 @@
+How to enable vim editing in the Fish shell:
+--------------------------------------------
+open the config fish file with this cmd : vim ~/.config/fish/config.fish 
+add the following line to config.fish: fish_vi_key_bindings 
+save the file and restart the fish shell by running: exec fish

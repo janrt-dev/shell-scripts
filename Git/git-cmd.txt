@@ -26,3 +26,7 @@ Learn Git .
 
 git init. => enter the time machine and inialize it (Git is the time machine).
 git add . => add changes to stagging area.
+
+HTTPS Credentials Caching: cache your credentials for a specific period. e.g. 1month 
+git config --global credential.helper cache 
+git config --global credential.helper 'cache --timeout=2,678,400' 
