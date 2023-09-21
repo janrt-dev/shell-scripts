@@ -1,0 +1,60 @@
+Quiz questions
+-------------
+Question #0 : Which of the following is true about the Feynman learning technique (Select all that apply)
+  1	Information is learned when you can explain it and use it in a wide variety of situations.
+  2	Ultimately, the point of learning is to understand the world"
+  3	Because learning doesn’t happen from skimming through a book or remembering enough to pass a test
+
+Question #1 : Which of the following completely describes the difference between focussed thinking and diffused thinking
+  1	focussed thinking is like seeing a brick wall and saying it’s just too difficult to run through or climb through while diffused thinking is like your mind saying “"Hey why don’t we tie balloons and just float over it
+
+Question #2 : “which of the following is part of the recommended learning framework within the ALX program. (Select all that apply)
+  1	Pause, take a breath, and think of the solution. Make sure you understand all of the required concepts and algorithms before you proceed to solve tasks.
+  2	Write or draw out your problem on a whiteboard or paper. It’s easier to visualize your problem when it isn’t pure code.
+  3	Whether or not your code runs when you input it, make sure you know why it doesn’t (or does) work without looking at the error message.
+  4	Read the project prerequisites, man pages, documentation, books, and articles. Try all the examples in the docs
+
+Question #3 : Why you should ask and answer technical questions?
+  1	You will gain a better understanding of the problem
+  2	You learn by answering questions
+  3	You learn how to ask questions
+
+Tips:
+Read the concept page Technical Questioning
+
+Question #4 : How do you ask good technical questions?
+  1	Format, Lint, and Document Your Code
+  2	Provide context
+  3	Provide code sample
+  4	Share what you’ve already tried
+  5	Sum up your question in a title
+
+Tips:
+Read the concept page Technical Questioning
+
+Question #5 : If you still can’t find the solution or understand why your code doesn’t work, google it. Which of the following facts should be considered when googling (Select all that apply)
+  1	Only google something specific
+  2	Never copy and paste something from the Internet. You need to understand everything before you implement something you read. Typing yourself - instead of cp/paste - ensures that you better understand and not miss any details.
+
+Question #6 : “When giving help to a peer, it is important to… (Select all that apply)
+  1	Do NOT give the final answer. You are here to guide, help them find the solution by themselves.
+  2	There are no stupid questions
+  3	Respect every question; there is nothing more demotivating than having someone laughing at your question or being asked “what? you still don’t know that?”
+
+Question #7 : When Asking a peer for help, it is important to remember… (Select all that apply)
+  1	Respect other people’s time
+  2	Explain what the problem is and what you’ve tried"
+  3	it’s your job to ask and it’s your job to help
+
+Question #8 : According to Richard Faynmen, what does it mean to know: (Select all that apply)
+  1	When you only know what something is called, you have no real sense of what it is.
+  2	When you know something, the labels are unimportant, because it’s not necessary to keep it in the box it came in.“
+  3	The person who says he knows what he thinks but cannot express it usually does not know what he thinks
+
+Question #9 : Which is more important: focused vs. diffuse thinking?
+  1	Both are required in order to master a topic or make progress on a difficult project. When you are learning something new, you need to understand both the context for the information (diffuse) and the specifics of the subject (focused).
+
+Question #10 : “Which of the following is not a step in the Faynmen learning technique
+  1	make things bigger, more complex
+
+
