@@ -46,3 +46,7 @@ Config Options
 * prefix + : run a tmux cmds without needing to type tmux before it in status bar. 
 
 * prefix + Z : pane zooming and focus on a single pane. Do the same to unzoom the pane.
+
+Tmux Issues:
+===========
+* [Cannot use C-Space as prefix in Mac](https://github.com/tmux/tmux/issues/3487)
