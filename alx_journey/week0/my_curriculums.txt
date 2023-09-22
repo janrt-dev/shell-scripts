@@ -1,0 +1,203 @@
+Curriculum SE Foundations - Overview
+:-----------------:-----------------:
+The primary focus of Foundations is to achieve mastery of fundamental
+engineering concepts and become skilled in coding. Professional Development will
+be a key supplement of this primary goal. At the conclusion of Foundations,
+students will have acquired a strong foundation of technical knowledge from
+which they can either build upon with a Specialization or begin preparing for
+interviews and jobs as part of Holberton’s interview prep, Career Sprint. For
+more information, please expand the information in the Overview
+
+Curriculum dates:
+  Started the 09/11/2023
+  Ending the 07/19/2024
+Holidays:
+  Break #0: from 12/16/2023 to 01/01/2024
+  Break #1: from 03/29/2024 to 04/07/2024k
+/
+Overview
+========
+First Trimester:
+---------------
+Intro to:
+  Emacs
+  Vim
+  Git/Github
+  C
+Basics
+  Functions
+  Pointers
+  Data Structures
+    Singly Linked Lists
+    Arrays
+Bit Manipulation
+Variadic Functions
+Memory Management
+File Redirection
+printf
+Shell
+Compilation
+Heap/Stack
+Linux
+  Basics
+  Permissions
+  Redirections
+  Syscalls
+Static Libraries
+Social Media
+Public Speaking/Stand ups
+
+Second Trimester:
+-----------------
+Python
+Basics
+Object-Oriented Programming
+Interpreted Languages
+Test Driven Development
+Error Handling
+I/O
+Web Scraping
+C
+  Data Structures
+    Stacks/Queues
+    Doubly Linked Lists
+    Hash Tables
+    Binary Trees
+  Algorithms
+    Sorting
+    Big O
+  Dynamic Libraries
+Linux
+  Processes and Signals
+  Scripting
+  Command Line
+Databases
+  SQL
+  MySQL
+Systems Engineering
+  Open Systems Interconnection Model
+  TCP/IP
+Airbnb Project
+  HTML
+  CSS
+  JSON
+  Unit Testing
+
+Third Trimester:
+---------------
+Systems Engineering/Devops
+  SSH
+  SSL/TLS
+  HTTP/S
+  Webstack Debugging
+  Servers
+  Web Servers (Nginx)
+  Application Servers (Gunicorn)
+  Configuration Management (Puppet)
+  Load Balancers
+  Postmortems
+  Networking
+  Monitoring
+C
+  Algorithms
+    Searching
+Airbnb Project
+  Javascript
+  JQuery
+  Deployment
+  APIs
+    Flask
+Hack Days
+Python
+  ORMs (SQLAlchemy)
+  Templating (Jinja2)
+Code Debugging
+Regexes
+
+All Three Trimesters:
+  1	Technical Writing
+  2	Recursion
+  3	Collaboration
+  4	The Framework
+  5	Whiteboarding
+  6	Mock Interviews
+  7	Time Management
+
+Additional Information
+  After you complete the Foundations program, a whole new series of paths open up
+  for you. Known as “Specializations”, you can pick where you will take your focus
+  for the fourth sprint of the curriculum.
+
+We have two Specializations:
+  1	Back-end
+  2	Front-end
+
+
+Curriculum Short Specializations
+:==============:===============:
+Curriculum dates:
+  Will start the 07/22/2024
+  Ending the 10/25/2024
+
+
+./Front-end/Specialization
+Modern JavaScript
+  ES6
+  TypeScript
+Front-end
+  Advanced HTML
+  Advanced CSS
+  Responsive design
+React I
+  Intro
+  Props
+React II
+  State
+  Immutable
+  Inline-styling
+React Redux
+  Action creator & normalizr
+  Reducer & Selector
+  Connector & Provider
+Portfolio project
+
+Soft-skills & Interview preparation
+  Technical Writing
+  Collaboration
+  The Framework
+  Whiteboarding
+  Time Management
+  Interview algorithm practice
+
+./Back-end/Specialization
+  Modern JavaScript
+    ES6
+    TypeScript
+    Node JS basic
+    Unittests
+  Python
+    Variable annotations
+    Async
+    Unittests and integration tests
+  Storage
+    Advanced MySQL
+    NoSQL
+    Redis
+  Back-end
+    Pagination
+    Caching
+    i18n
+    Queuing system in JS
+  User Data
+    Personal data
+    Authentication - Basic & Session
+    User authentication
+  Portfolio project
+
+Soft-skills & Interview preparation
+  Technical Writing
+  Collaboration
+  The Framework
+  Whiteboarding
+  Time Management
+  Interview algorithm practice

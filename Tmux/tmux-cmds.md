@@ -41,4 +41,8 @@ Spliting cmds
 
 
 
- 
+Config Options
+--------------
+* prefix + : run a tmux cmds without needing to type tmux before it in status bar. 
+
+* prefix + Z : pane zooming and focus on a single pane. Do the same to unzoom the pane.
