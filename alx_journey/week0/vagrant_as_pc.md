@@ -32,22 +32,22 @@ Here are some examples of other softwares out there that are widely used to mana
   * Containerization is a very good and efficient alternative to VMs for development environments
   * Containers are much more lightweight than VMs, thus much faster to start and stop.
   * The inconvinience of containers is that they sit on top of your OS. Unlike virtual machines, they don’t emulate the hardware, but rather share your machine’s hardware. We won’t go into the details of how containerization works, but to keep it simple, that means that if you run MacOS, it is not possible to run a Linux or Windows container. (Docker makes it work using VMs).
-* More info [https://intranet.alxswe.com/rltoken/5zkJ2fsQxSOS0ksHa7kSMw](here)
+* More info [here](https://intranet.alxswe.com/rltoken/5zkJ2fsQxSOS0ksHa7kSMw)
 ## Conclusion
 VirtualBox and Vagrant together allow you to manage and ship isolated development environments. Those isolated environments in the context of the school (and in the future, in the context of a company) allow you to match the environment we use to automatically check your work.
 Although both VirtualBox and Vagrant are widely used in the industry, it doesn’t mean it is the only means to achieve virtualization, and other tools exist with their pros and cons.
 
-How to install Vagrant on your personal computer:
-Mac OSx
-Download VirtualBox from this link
-Install VirtualBox
-Download Vagrant from this link
-Install Vagrant
-Open the Terminal application:
-Now you will execute command line in your Terminal (each of them start with $)
-Add the Ubuntu 20.04 (Focal) image to your box list: $ vagrant box add ubuntu/focal64 Warning: this step can take time
-Many other images are available here
-Create your first virtual machine:
+# How to install Vagrant on your personal computer:
+## Mac OSx
+* Download VirtualBox from this link
+* Install VirtualBox
+* Download Vagrant from this link
+* Install Vagrant
+* Open the Terminal application:
+  * Now you will execute command line in your Terminal (each of them start with $)
+  * Add the Ubuntu 20.04 (Focal) image to your box list: $ vagrant box add ubuntu/focal64 Warning: this step can take time
+  * Many other images are available here
+* Create your first virtual machine:
 $ vagrant init ubuntu/focal64 -> it will generate a Vagrantfile with base = "ubuntu/focal64" - you don’t have to execute this command line everyday, only once, to create a new virtual machine 
 $ vagrant up -> it will start your virtual machine 
 $ vagrant ssh -> now you are inside your virtual machine. 
