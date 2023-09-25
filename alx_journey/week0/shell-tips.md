@@ -8,15 +8,16 @@ NAME
 ssh — OpenSSH SSH client (remote login program)
 
 SYNOPSIS
-
+```sh
 ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec] [-D [bind_address:]port] [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file] [-L [bind_address:]port:host:hostport] [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
 [-Q cipher | cipher-auth | mac | kex | key] [-R [bind_address:]port:host:hostport] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]] [user@]hostname [command]
+```
 
-DESCRIPTION
+*DESCRIPTION*
 
 ssh (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine. It is intended to replace rlogin and rsh, and provide secure encrypted communications between two untrusted hosts over an insecure network. X11 connections and arbitrary TCP ports can also be forwarded over the secure channel.
 
-Some tips:
+*Some tips:*
 
 * The NAME will summarize what the command is doing. As it is usually super short, you might want to look at DESCRIPTION (bellow) if ever it does not gives clear enough information
 * The SYNOPSIS will help you to understand the structure of the command:
@@ -31,7 +32,7 @@ Some tips:
 ## Commands
 Here is the (non-exhaustive) list of commands & concepts you should master to be verbose with Unix systems:
 
-'''
+```sh
 awk # pattern scanning and processing language
 
 basename # strip directory and suffix from filenames
@@ -161,8 +162,7 @@ xargs # build and execute command lines from standard input
 < # redirect standard input
 
 & # send process to background
-
-'''
+```
 
 ## Shortcuts
 Some handy shortcuts:
@@ -182,6 +182,7 @@ CTRL+F # moves forward one character
 CTRL+G # aborts the current editing command and ring the terminal bell
 
 CTRL+K # deletes (kill) forward to end of line
+
 CTRL+L # clears screen and redisplay the line
 
 CTRL+N # next line in command history
