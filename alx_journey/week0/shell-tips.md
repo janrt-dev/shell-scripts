@@ -19,12 +19,12 @@ ssh (SSH client) is a program for logging into a remote machine and for executin
 
 *Some tips:*
 
-* The NAME will summarize what the command is doing. As it is usually super short, you might want to look at DESCRIPTION (bellow) if ever it does not gives clear enough information
-* The SYNOPSIS will help you to understand the structure of the command:
+* The *NAME* will summarize what the command is doing. As it is usually super short, you might want to look at *DESCRIPTION* (bellow) if ever it does not gives clear enough information
+* The *SYNOPSIS* will help you to understand the structure of the command:
   * A shell command usually have this format: command options parameters
  Options inside [] are optional
   * The string without [] are mandatory
-* ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-D [bind_address:]port]
+* ```sh ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-D [bind_address:]port]```
   * ssh is mandatory
     * -1246AaCfgKkMNnqsTtVvXxYy is optional
     * -D [bind_address:]port is optional (with bind_address being itself optional within -D [bind_address:]port
@@ -157,7 +157,7 @@ xargs # build and execute command lines from standard input
 
 | # redirect standard output to another command
 
-\> \# redirect standard output
+> # redirect standard output
 
 < # redirect standard input
 
